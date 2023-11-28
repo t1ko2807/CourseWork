@@ -10,7 +10,7 @@
         public Fraction(int numerator, int denominator)
         {
             if (denominator == 0)
-                throw new ArgumentException("Denominator cannot be zero.");
+                throw new ArgumentException("Հայտարարը չի կարող զրո լինել");
 
             int gcd = GCD(Math.Abs(numerator), Math.Abs(denominator));
             Numerator = numerator / gcd;
@@ -47,7 +47,7 @@
         public static Fraction operator /(Fraction a, Fraction b)
         {
             if (b.Numerator == 0)
-                throw new DivideByZeroException("Cannot divide by zero.");
+                throw new DivideByZeroException("Հնարավոր չէ բաժանել զրոյի");
 
             return new Fraction(a.Numerator * b.Denominator, a.Denominator * b.Numerator);
         }

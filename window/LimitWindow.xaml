@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Icon="../images/app_icon.png" Title="Limit calculator" Height="200" Width="320">
+        Icon="../images/app_icon.png" Title="Սահմանի հաշվիչ" Height="200" Width="320">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -20,8 +20,8 @@
         <Label Grid.Row="2" Content="x→" HorizontalAlignment="Left" Margin="11,0,0,0" VerticalAlignment="Center" FontSize="14"/>
         <TextBox Grid.Row="2" Name="limitTextBox" Text="2" HorizontalAlignment="Left" Margin="37,7,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="30" MaxLength="3"/>
 
-        <Button Grid.Row="3" Content="Get result" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="292" Click="Result_Click"/>
+        <Button Grid.Row="3" Content="Ստանալ արդյունքը" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="292" Click="Result_Click"/>
 
-        <Label Grid.Row="4" Content="Result: " Name="resultLabel" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" />
+        <Label Grid.Row="4" Content="Արդյունք: " Name="resultLabel" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" />
     </Grid>
 </Window>

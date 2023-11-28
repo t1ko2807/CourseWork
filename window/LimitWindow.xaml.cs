@@ -29,15 +29,15 @@ namespace TMath
                     limit = new LimitSolver(function, limitTo);
                 }
                 double result = limit.CalculateLimit();
-                resultLabel.Content = $"Result: {result}";
+                resultLabel.Content = $"Արդյունք: {result}";
             }
             catch (ParseException)
             {
-                MessageBox.Show($"Some argumets are wrong. Use C# syntax to prevent this error");
+                MessageBox.Show("Որոշ դաշտեր սխալ են: Այս սխալը կանխելու համար օգտագործեք C# սինտաքսը");
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An unexpected error occurred: {ex.Message}");
+                MessageBox.Show($"Անսպասելի սխալ տեղի ունեցավ: {ex.Message}");
             }
         }
     }

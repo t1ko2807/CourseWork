@@ -21,7 +21,7 @@ namespace MatrixSolverApp
 
                 if (rowCount != colCount)
                 {
-                    MessageBox.Show($"Error parsing matrix: No matrix were given");
+                    MessageBox.Show($"Մատրիցայի վերլուծության սխալ. մատրից չի տրվել");
                     return new double[0, 0];
                 }
 
@@ -41,7 +41,7 @@ namespace MatrixSolverApp
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error parsing matrix: {ex.Message}");
+                MessageBox.Show($"Մատրիցայի վերլուծության սխալ: {ex.Message}");
                 return new double[0, 0];
             }
         }
@@ -85,7 +85,7 @@ namespace MatrixSolverApp
             {
                 MatrixSolver solver = new MatrixSolver(matrix);
                 double determinant = solver.CalculateDeterminant();
-                ResultTextBox.Text = $"Determinant: {determinant}";
+                ResultTextBox.Text = $"Որոշիչ: {determinant}";
             }
         }
 
@@ -125,7 +125,7 @@ namespace MatrixSolverApp
             double[,] matrix = GetMatrixFromInput();
             if (matrix != null)
             {
-                double scalar = Convert.ToDouble(Microsoft.VisualBasic.Interaction.InputBox("Enter scalar value:", "Scalar Multiply"));
+                double scalar = Convert.ToDouble(Microsoft.VisualBasic.Interaction.InputBox("Մուտքագրեք թվային արժեքը:", "Բազմապատկումը թվով"));
                 MatrixSolver solver = new MatrixSolver(matrix);
                 double[,] resultMatrix = solver.MultiplyByScalar(scalar);
                 DisplayResult(resultMatrix);
@@ -137,7 +137,7 @@ namespace MatrixSolverApp
             double[,] matrix = GetMatrixFromInput();
             if (matrix != null)
             {
-                int exponent = Convert.ToInt32(Microsoft.VisualBasic.Interaction.InputBox("Enter exponent value:", "Matrix Power"));
+                int exponent = Convert.ToInt32(Microsoft.VisualBasic.Interaction.InputBox("Մուտքագրեք թվային արժեքը:", "Աստիճանի բարձրացում"));
                 MatrixSolver solver = new MatrixSolver(matrix);
                 double[,] resultMatrix = solver.Power(exponent);
                 DisplayResult(resultMatrix);

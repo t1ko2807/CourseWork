@@ -1,7 +1,7 @@
 ﻿<Window x:Class="TMath.VectorsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Icon="../images/app_icon.png" Title="VectorsWindow" Height="450" Width="500">
+        Icon="../images/app_icon.png" Title="Վեկտորների հաշվիչ" Height="450" Width="500">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -9,20 +9,20 @@
         </Grid.RowDefinitions>
 
         <Menu>
-            <MenuItem Header="Common operations">
-                <MenuItem Header="Addition" Click="AdditionMenuItem_Click"/>
-                <MenuItem Header="Subtraction" Click="SubtractionMenuItem_Click"/>
-                <MenuItem Header="Multiplication by a scalar" Click="MultiplyScalarMenuItem_Click"/>
+            <MenuItem Header="Պարզ գործողություններ">
+                <MenuItem Header="Գումարում" Click="AdditionMenuItem_Click"/>
+                <MenuItem Header="Հանում" Click="SubtractionMenuItem_Click"/>
+                <MenuItem Header="Բազմապատկել թվով" Click="MultiplyScalarMenuItem_Click"/>
             </MenuItem>
-            <MenuItem Header="Complex operations">
-                <MenuItem Header="Magnitude" Click="MagnitudeMenuItem_Click"/>
-                <MenuItem Header="Angle Between" Click="AngleBetweenMenuItem_Click"/>
-                <MenuItem Header="Projection" Click="ProjectionMenuItem_Click"/>
+            <MenuItem Header="Բարդ գործողություններ">
+                <MenuItem Header="Վեկտորի երկարությունը" Click="MagnitudeMenuItem_Click"/>
+                <MenuItem Header="Անկյունը վեկտորների միջև" Click="AngleBetweenMenuItem_Click"/>
+                <MenuItem Header="Առաջին վեկտորի պրոեկցիան" Click="ProjectionMenuItem_Click"/>
             </MenuItem>
         </Menu>
 
         <StackPanel Margin="10,25,10,10">
-            <TextBlock Text="Enter Point 1:"/>
+            <TextBlock Text="Մուտքագրել առաջին կետի կորդինատները:"/>
             <StackPanel Orientation="Horizontal">
                 <StackPanel.Resources>
                     <Style TargetType="TextBox">
@@ -40,7 +40,7 @@
                 <TextBox x:Name="Point1Z" Width="50" Text="3"/>
             </StackPanel>
 
-            <TextBlock Text="Enter Point 2:" Margin="0,10,0,0"/>
+            <TextBlock Text="Մուտքագրել երկրորդ կետի կորդինատները:" Margin="0,10,0,0"/>
             <StackPanel Orientation="Horizontal">
                 <StackPanel.Resources>
                     <Style TargetType="TextBox">
@@ -58,12 +58,12 @@
                 <TextBox x:Name="Point2Z" Width="50" Text="0"/>
             </StackPanel>
 
-            <Button Content="Set Vector 1" Margin="0,10,0,0" Click="SetVector1Button_Click"/>
-            <Button Content="Set Vector 2" Margin="0,5,0,0" Click="SetVector2Button_Click"/>
+            <Button Content="Սահմանել առաջին վեկտորը" Margin="0,10,0,0" Click="SetVector1Button_Click"/>
+            <Button Content="Սահմանել երկրորդ վեկտորը" Margin="0,5,0,0" Click="SetVector2Button_Click"/>
 
-            <Button Content="Calculate" Margin="0,10,0,0" Click="CalculateButton_Click"/>
+            <Button Content="Ընդհանուր ինֆորմացիա" Margin="0,10,0,0" Click="CalculateButton_Click"/>
 
-            <TextBlock Text="Output:" Margin="0,20,0,0"/>
+            <TextBlock Text="Արդյունք:" Margin="0,20,0,0"/>
             <TextBox x:Name="OutputTextBox" IsReadOnly="True" Height="100" Margin="0,5,0,0"/>
         </StackPanel>
     </Grid>

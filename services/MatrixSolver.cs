@@ -15,7 +15,7 @@
         {
             if (matrix.GetLength(0) != matrix.GetLength(1))
             {
-                throw new InvalidOperationException("The determinant is defined only for square matrices.");
+                throw new InvalidOperationException("Որոշիչը սահմանվում է միայն քառակուսի մատրիցների համար");
             }
 
             if (matrixDimension == 1)
@@ -77,7 +77,7 @@
 
             if (determinant.Numerator == 0)
             {
-                throw new InvalidOperationException("There is no inversed matrix because determinant equals to 0");
+                throw new InvalidOperationException("Հակադարձ մատրիցա չկա, քանի որ որոշիչը հավասար է 0-ի");
             }
 
             Fraction[,] inverseMatrix = new Fraction[matrixDimension, matrixDimension];
@@ -100,7 +100,7 @@
 
             if (determinant == 0)
             {
-                throw new InvalidOperationException("There is no inversed matrix, because determinant equals to 0");
+                throw new InvalidOperationException("Հակադարձ մատրիցա չկա, քանի որ որոշիչը հավասար է 0-ի");
             }
 
             double[,] inverseMatrix = new double[matrixDimension, matrixDimension];
@@ -150,7 +150,7 @@
         {
             if (exponent < 0)
             {
-                throw new ArgumentException("The exponent must be non-negative");
+                throw new ArgumentException("Ցուցանիշը պետք է լինի ոչ բացասական");
             }
 
             if (exponent == 0)
