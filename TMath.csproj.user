@@ -7,42 +7,36 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="ComplexNumbersWindow.xaml.cs">
+    <Compile Update="window\ComplexNumbersWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="LimitWindow.xaml.cs">
+    <Compile Update="window\LimitWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MainWindow.xaml.cs">
+    <Compile Update="window\MainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MatricesWindow.xaml.cs">
+    <Compile Update="window\MatricesWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Test.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="VectorsWindow.xaml.cs">
+    <Compile Update="window\VectorsWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="ComplexNumbersWindow.xaml">
+    <Page Update="window\ComplexNumbersWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="LimitWindow.xaml">
+    <Page Update="window\LimitWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="window\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MatricesWindow.xaml">
+    <Page Update="window\MatricesWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Test.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="VectorsWindow.xaml">
+    <Page Update="window\VectorsWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

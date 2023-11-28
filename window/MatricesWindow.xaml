@@ -1,7 +1,7 @@
 ﻿<Window x:Class="MatrixSolverApp.MatricesWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Matrix Solver" Height="500" Width="500">
+        Icon="../images/app_icon.png" Title="Matrix Solver" Height="500" Width="500">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -17,7 +17,7 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0" Text="Enter Matrix:" Margin="5"/>
-        <TextBox Grid.Row="1" Name="MatrixInputTextBox" Text="1 2 3 4" Margin="5" Height="100" TextWrapping="Wrap" AcceptsReturn="True"/>
+        <TextBox Grid.Row="1" Name="MatrixInputTextBox" Text="1 2 3 4&#xD;&#xA;5 7 8 5&#xD;&#xA;7 3 7 5&#xD;&#xA;9 8 6 4" Margin="5" Height="100" TextWrapping="Wrap" AcceptsReturn="True"/>
         <CheckBox Grid.Row="2" x:Name="cofactorCheckbox" Content="Show answer in fractional numbers" Margin="5"/>
         
         <Button Grid.Row="3" Content="Calculate Determinant" Name="DeterminantButton" Click="DeterminantButton_Click" Margin="5"/>

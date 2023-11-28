@@ -1,7 +1,7 @@
 ﻿<Window x:Class="TMath.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Calculator Type Selection" Height="400" Width="500">
+        Icon="../images/app_icon.png" Title="Calculator Type Selection" Height="400" Width="500">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -16,7 +16,7 @@
         <!-- Complex Numbers Calculator -->
         <Button Grid.Row="0" Grid.Column="0" Width="200" Height="100" Margin="10" Click="ComplexNumbers_Click">
             <StackPanel>
-                <Image Source="images/complex_numbers_icon.png" Width="50" Height="50" />
+                <Image Source="../images/complex_numbers_icon.png" Width="50" Height="50" />
                 <TextBlock Text="Complex Numbers Calculator" TextAlignment="Center"/>
             </StackPanel>
         </Button>
@@ -24,15 +24,15 @@
         <!-- Integration Calculator -->
         <Button Grid.Row="0" Grid.Column="1" Width="200" Height="100" Margin="10" Click="Limit_Click">
             <StackPanel>
-                <Image Source="images/integration_icon.png" Width="50" Height="50" />
-                <TextBlock Text="Integration Calculator" TextAlignment="Center"/>
+                <Image Source="../images/limit_icon.png" Width="50" Height="50" />
+                <TextBlock Text="Limit Calculator" TextAlignment="Center"/>
             </StackPanel>
         </Button>
 
         <!-- Matrices Calculator -->
         <Button Grid.Row="1" Grid.Column="0" Width="200" Height="100" Margin="10" Click="Matrices_Click">
             <StackPanel>
-                <Image Source="images/matrices_icon.png" Width="50" Height="50" />
+                <Image Source="../images/matrices_icon.png" Width="50" Height="50" />
                 <TextBlock Text="Matrices Calculator" TextAlignment="Center"/>
             </StackPanel>
         </Button>
@@ -40,7 +40,7 @@
         <!-- Vectors Calculator -->
         <Button Grid.Row="1" Grid.Column="1" Width="200" Height="100" Margin="10" Click="Vectors_Click">
             <StackPanel>
-                <Image Source="images/vectors_icon.png" Width="50" Height="50" />
+                <Image Source="../images/vectors_icon.png" Width="50" Height="50" />
                 <TextBlock Text="Vectors Calculator" TextAlignment="Center"/>
             </StackPanel>
         </Button>

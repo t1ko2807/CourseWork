@@ -12,6 +12,7 @@
     <None Remove="images\app_icon.png" />
     <None Remove="images\complex_numbers_icon.png" />
     <None Remove="images\integration_icon.png" />
+    <None Remove="images\limit_icon.png" />
     <None Remove="images\matrices_icon.png" />
     <None Remove="images\vectors_icon.png" />
   </ItemGroup>
@@ -25,6 +26,7 @@
     <Resource Include="images\app_icon.png" />
     <Resource Include="images\complex_numbers_icon.png" />
     <Resource Include="images\integration_icon.png" />
+    <Resource Include="images\limit_icon.png" />
     <Resource Include="images\matrices_icon.png" />
     <Resource Include="images\vectors_icon.png" />
   </ItemGroup>

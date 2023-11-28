@@ -1,10 +1,7 @@
 ﻿<Window x:Class="TMath.VectorsWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d"
-        Title="VectorsWindow" Height="450" Width="800">
+        Icon="../images/app_icon.png" Title="VectorsWindow" Height="450" Width="500">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -12,7 +9,12 @@
         </Grid.RowDefinitions>
 
         <Menu>
-            <MenuItem Header="Operations">
+            <MenuItem Header="Common operations">
+                <MenuItem Header="Addition" Click="AdditionMenuItem_Click"/>
+                <MenuItem Header="Subtraction" Click="SubtractionMenuItem_Click"/>
+                <MenuItem Header="Multiplication by a scalar" Click="MultiplyScalarMenuItem_Click"/>
+            </MenuItem>
+            <MenuItem Header="Complex operations">
                 <MenuItem Header="Magnitude" Click="MagnitudeMenuItem_Click"/>
                 <MenuItem Header="Angle Between" Click="AngleBetweenMenuItem_Click"/>
                 <MenuItem Header="Projection" Click="ProjectionMenuItem_Click"/>
@@ -22,9 +24,17 @@
         <StackPanel Margin="10,25,10,10">
             <TextBlock Text="Enter Point 1:"/>
             <StackPanel Orientation="Horizontal">
-                <TextBlock>X:</TextBlock>
+                <StackPanel.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Margin" Value="5,0,0,0"/>
+                    </Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Margin" Value="5,0,0,0"/>
+                    </Style>
+                </StackPanel.Resources>
+                <TextBlock Margin="0">X:</TextBlock>
                 <TextBox x:Name="Point1X" Width="50" Text="4"/>
-                <TextBlock>Y:</TextBlock>
+                <TextBlock><Run Text="Y:"/></TextBlock>
                 <TextBox x:Name="Point1Y" Width="50" Text="-8"/>
                 <TextBlock>Z:</TextBlock>
                 <TextBox x:Name="Point1Z" Width="50" Text="3"/>
@@ -32,7 +42,15 @@
 
             <TextBlock Text="Enter Point 2:" Margin="0,10,0,0"/>
             <StackPanel Orientation="Horizontal">
-                <TextBlock>X:</TextBlock>
+                <StackPanel.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Margin" Value="5,0,0,0"/>
+                    </Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Margin" Value="5,0,0,0"/>
+                    </Style>
+                </StackPanel.Resources>
+                <TextBlock Margin="0">X:</TextBlock>
                 <TextBox x:Name="Point2X" Width="50" Text="0"/>
                 <TextBlock>Y:</TextBlock>
                 <TextBox x:Name="Point2Y" Width="50" Text="0"/>
@@ -40,10 +58,13 @@
                 <TextBox x:Name="Point2Z" Width="50" Text="0"/>
             </StackPanel>
 
+            <Button Content="Set Vector 1" Margin="0,10,0,0" Click="SetVector1Button_Click"/>
+            <Button Content="Set Vector 2" Margin="0,5,0,0" Click="SetVector2Button_Click"/>
+
             <Button Content="Calculate" Margin="0,10,0,0" Click="CalculateButton_Click"/>
 
             <TextBlock Text="Output:" Margin="0,20,0,0"/>
             <TextBox x:Name="OutputTextBox" IsReadOnly="True" Height="100" Margin="0,5,0,0"/>
         </StackPanel>
     </Grid>
-    </Window>
+</Window>

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TMath.services
+﻿namespace TMath.services
 {
     class Vector
     {
@@ -72,6 +66,5 @@ namespace TMath.services
 
             return dotProduct / magnitudeSquared;
         }
-
     }
 }
