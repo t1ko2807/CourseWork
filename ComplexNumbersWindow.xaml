@@ -1,0 +1,36 @@
+﻿<Window x:Class="TMath.ComplexNumbersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Complex Number Operations" Height="300" Width="300">
+    <Grid>
+        <StackPanel Margin="10" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                <TextBlock Text="z1 =" FontWeight="Bold"/>
+                <TextBox x:Name="real1TextBox" Text="3" Width="50"/>
+                <TextBlock Text="+" Margin="0,0,5,0"/>
+                <TextBox x:Name="imaginary1TextBox" Text="4" Width="50"/>
+                <TextBlock Text="i"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock Text="z2 =" FontWeight="Bold"/>
+                <TextBox x:Name="real2TextBox" Text="1" Width="50"/>
+                <TextBlock Text="+" Margin="0,0,5,0"/>
+                <TextBox x:Name="imaginary2TextBox" Text="2" Width="50"/>
+                <TextBlock Text="i"/>
+            </StackPanel>
+
+            <Button Content="Add" Click="OnAddButtonClick" Width="100" Margin="0,0,0,5"/>
+            <Button Content="Subtract" Click="OnSubtractButtonClick" Width="100" Margin="0,0,0,5"/>
+            <Button Content="Multiply" Click="OnMultiplyButtonClick" Width="100" Margin="0,0,0,5"/>
+            <Button Content="Divide" Click="OnDivideButtonClick" Width="100" Margin="0,0,0,5"/>
+            <Button Content="Modulus" Click="OnModulusButtonClick" Width="100" Margin="0,0,0,5"/>
+
+
+            <StackPanel Margin="0,10,0,0">
+                <TextBlock Text="Result:" FontWeight="Bold"/>
+                <TextBlock x:Name="resultTextBlock"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

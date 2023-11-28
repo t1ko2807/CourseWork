@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\app_icon.png" />
+    <None Remove="images\complex_numbers_icon.png" />
+    <None Remove="images\integration_icon.png" />
+    <None Remove="images\matrices_icon.png" />
+    <None Remove="images\vectors_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.7" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\app_icon.png" />
+    <Resource Include="images\complex_numbers_icon.png" />
+    <Resource Include="images\integration_icon.png" />
+    <Resource Include="images\matrices_icon.png" />
+    <Resource Include="images\vectors_icon.png" />
+  </ItemGroup>
+
+</Project>
