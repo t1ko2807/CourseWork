@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Icon="../images/app_icon.png" Title="Սահմանի հաշվիչ" Height="200" Width="320">
+        Icon="../images/app_icon.png" Title="TMath - Սահմանի հաշվիչ" Height="200" Width="320">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

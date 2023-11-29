@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TMath")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+351c5f2fd90634941f22328669cc9e9cc8613a4a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+993581920be2216d28fd3f317c2b44aa871e8318")]
 [assembly: System.Reflection.AssemblyProductAttribute("TMath")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TMath")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
