@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 using TMath.services;
-using System.Numerics;
 
 namespace MatrixSolverApp
 {
@@ -125,10 +124,18 @@ namespace MatrixSolverApp
             double[,] matrix = GetMatrixFromInput();
             if (matrix != null)
             {
-                double scalar = Convert.ToDouble(Microsoft.VisualBasic.Interaction.InputBox("Մուտքագրեք թվային արժեքը:", "Բազմապատկումը թվով"));
-                MatrixSolver solver = new MatrixSolver(matrix);
-                double[,] resultMatrix = solver.MultiplyByScalar(scalar);
-                DisplayResult(resultMatrix);
+                string userInput = Microsoft.VisualBasic.Interaction.InputBox("Մուտքագրեք թվային արժեքը:", "Աստիճանի բարձրացում");
+
+                if (double.TryParse(userInput, out double scalar))
+                {
+                    MatrixSolver solver = new MatrixSolver(matrix);
+                    double[,] resultMatrix = solver.MultiplyByScalar(scalar);
+                    DisplayResult(resultMatrix);
+                }
+                else
+                {
+                    MessageBox.Show("Սխալ տեղի ունեցավ: Խնդրում եմ մուտքագրեք ճշգրիտ թիվ։");
+                }
             }
         }
 
@@ -137,10 +144,18 @@ namespace MatrixSolverApp
             double[,] matrix = GetMatrixFromInput();
             if (matrix != null)
             {
-                int exponent = Convert.ToInt32(Microsoft.VisualBasic.Interaction.InputBox("Մուտքագրեք թվային արժեքը:", "Աստիճանի բարձրացում"));
-                MatrixSolver solver = new MatrixSolver(matrix);
-                double[,] resultMatrix = solver.Power(exponent);
-                DisplayResult(resultMatrix);
+                string userInput = Microsoft.VisualBasic.Interaction.InputBox("Մուտքագրեք թվային արժեքը:", "Աստիճանի բարձրացում");
+
+                if (int.TryParse(userInput, out int exponent))
+                {
+                    MatrixSolver solver = new MatrixSolver(matrix);
+                    double[,] resultMatrix = solver.Power(exponent);
+                    DisplayResult(resultMatrix);
+                }
+                else
+                {
+                    MessageBox.Show("Սխալ տեղի ունեցավ: Խնդրում եմ մուտքագրեք ճշգրիտ թիվ։");
+                }
             }
         }
     }

@@ -1,7 +1,5 @@
 ﻿namespace TMath.services
 {
-    using System;
-
     public class Fraction
     {
         public int Numerator { get; }

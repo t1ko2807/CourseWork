@@ -126,11 +126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tigran\\source\\repos\\Kursayin\\TMath\\TMath.csproj",
+      "projectUniqueName": "C:\\Users\\Tigran\\Desktop\\New folder\\TMath\\Project\\TMath\\TMath.csproj",
       "projectName": "TMath",
-      "projectPath": "C:\\Users\\Tigran\\source\\repos\\Kursayin\\TMath\\TMath.csproj",
+      "projectPath": "C:\\Users\\Tigran\\Desktop\\New folder\\TMath\\Project\\TMath\\TMath.csproj",
       "packagesPath": "C:\\Users\\Tigran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tigran\\source\\repos\\Kursayin\\TMath\\obj\\",
+      "outputPath": "C:\\Users\\Tigran\\Desktop\\New folder\\TMath\\Project\\TMath\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tigran\\AppData\\Roaming\\NuGet\\NuGet.Config",

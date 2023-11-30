@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Media;
 using TMath.services;
 
 namespace TMath
@@ -93,9 +94,17 @@ namespace TMath
         }
         private void MultiplyScalarMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            double scalar = Convert.ToDouble(Microsoft.VisualBasic.Interaction.InputBox("Մուտքագրեք թվային արժեքը:", "Բազմապատկումը թվով"));
-            TMath.services.Vector result = vector1 * scalar;
-            OutputTextBox.Text = $"Vector1 * {scalar} = ({result.X}, {result.Y}, {result.Z})";
+            string userInput = Microsoft.VisualBasic.Interaction.InputBox("Մուտքագրեք թվային արժեքը:", "Աստիճանի բարձրացում");
+
+            if (double.TryParse(userInput, out double scalar))
+            {
+                TMath.services.Vector result = vector1 * scalar;
+                OutputTextBox.Text = $"Vector1 * {scalar} = ({result.X}, {result.Y}, {result.Z})";
+            }
+            else
+            {
+                MessageBox.Show("Սխալ տեղի ունեցավ: Խնդրում եմ մուտքագրեք ճշգրիտ թիվ։");
+            }
         }
     }
 }

@@ -116,7 +116,7 @@ namespace MatrixSolverApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TMath;component/window/matriceswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TMath;V1.0.0.0;component/window/matriceswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\window\MatricesWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
