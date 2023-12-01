@@ -108,7 +108,7 @@ namespace TMath {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TMath;V1.0.0.0;component/window/vectorswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TMath;component/window/vectorswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\window\VectorsWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

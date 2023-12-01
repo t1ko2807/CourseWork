@@ -37,6 +37,31 @@
             return a;
         }
 
+        public static Fraction operator +(Fraction a, Fraction b)
+        {
+            int numerator = a.Numerator * b.Denominator + b.Numerator * a.Denominator;
+            int denominator = a.Denominator * b.Denominator;
+
+            return new Fraction(numerator, denominator);
+        }
+
+        public static Fraction operator -(Fraction a, Fraction b)
+        {
+            int numerator = a.Numerator * b.Denominator - b.Numerator * a.Denominator;
+            int denominator = a.Denominator * b.Denominator;
+
+            return new Fraction(numerator, denominator);
+        }
+        public static bool operator >(Fraction a, Fraction b)
+        {
+            return a.Numerator * b.Denominator > b.Numerator * a.Denominator;
+        }
+
+        public static bool operator <(Fraction a, Fraction b)
+        {
+            return a.Numerator * b.Denominator < b.Numerator * a.Denominator;
+        }
+
         public static Fraction operator *(Fraction a, Fraction b)
         {
             return new Fraction(a.Numerator * b.Numerator, a.Denominator * b.Denominator);
@@ -60,5 +85,4 @@
             return $"{Numerator}/{Denominator}";
         }
     }
-
 }

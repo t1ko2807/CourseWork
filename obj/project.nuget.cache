@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b4UY60u+X5cSdAaraywgLDpRBDRohdtxzr4GyL0+RF0sFAiwfISunD8xnC074Wuzi6gtenpTKVFt4nsb7yNvCQ==",
+  "dgSpecHash": "921gWYCUZdY4YdSbLthrgJUnr0wWBnQ1lWUI1MuuHc7z8HCy2Ah1BNZ0cAfmHfY4wP8/OUvaIoOxjWLPN8eN2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tigran\\Desktop\\New folder\\TMath\\Project\\TMath\\TMath.csproj",
+  "projectFilePath": "C:\\Users\\Tigran\\Desktop\\New Kursayin\\TMath\\Project\\TMath\\TMath.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tigran\\.nuget\\packages\\system.linq.dynamic.core\\1.3.7\\system.linq.dynamic.core.1.3.7.nupkg.sha512",
     "C:\\Users\\Tigran\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"

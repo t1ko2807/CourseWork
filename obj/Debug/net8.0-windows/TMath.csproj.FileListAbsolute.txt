@@ -30,3 +30,35 @@ C:\Users\Tigran\source\repos\Kursayin\TMath\obj\Debug\net8.0-windows\window\Limi
 C:\Users\Tigran\source\repos\Kursayin\TMath\obj\Debug\net8.0-windows\window\MainWindow.g.cs
 C:\Users\Tigran\source\repos\Kursayin\TMath\obj\Debug\net8.0-windows\window\MatricesWindow.g.cs
 C:\Users\Tigran\source\repos\Kursayin\TMath\obj\Debug\net8.0-windows\window\VectorsWindow.g.cs
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\bin\Debug\net8.0-windows\TMath.exe
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\bin\Debug\net8.0-windows\TMath.deps.json
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\bin\Debug\net8.0-windows\TMath.runtimeconfig.json
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\bin\Debug\net8.0-windows\TMath.dll
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\bin\Debug\net8.0-windows\TMath.pdb
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\bin\Debug\net8.0-windows\System.Linq.Dynamic.Core.dll
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\bin\Debug\net8.0-windows\WpfAnimatedGif.dll
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.csproj.AssemblyReference.cache
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\ComplexNumbersWindow.baml
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\LimitWindow.baml
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\MainWindow.baml
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\MatricesWindow.baml
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\VectorsWindow.baml
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\ComplexNumbersWindow.g.cs
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\LimitWindow.g.cs
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\MainWindow.g.cs
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\MatricesWindow.g.cs
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\window\VectorsWindow.g.cs
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath_MarkupCompile.cache
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.g.resources
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.AssemblyInfoInputs.cache
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.AssemblyInfo.cs
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.csproj.CoreCompileInputs.cache
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.sourcelink.json
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.csproj.CopyComplete
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.dll
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\refint\TMath.dll
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.pdb
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\TMath.genruntimeconfig.cache
+C:\Users\Tigran\Desktop\New Kursayin\TMath\Project\TMath\obj\Debug\net8.0-windows\ref\TMath.dll

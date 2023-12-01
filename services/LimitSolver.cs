@@ -1,4 +1,6 @@
-﻿namespace TMath.services
+﻿using System.Linq.Expressions;
+
+namespace TMath.services
 {
     public class LimitSolver
     {
@@ -49,15 +51,18 @@
 
         private double CalculateLimitToInfinity()
         {
-            double currentX = 1.0;
-            double result = function(currentX);
+            Expression<Func<double, double>> expression = x => function(x);
+            int n = 0;
+            double Sn = 0, Sn1 = 0.1;
 
-            for (int i = 0; i < 100; i++)
+            while (Math.Abs(Sn1 - Sn) > 10e-6)
             {
-                currentX *= 1000;
-                result = function(currentX);
+                n++;
+                Sn = Sn1;
+                Sn1 = expression.Compile()(n);
+
             }
-            return result;
+            return Sn1;
         }
     }
 }
